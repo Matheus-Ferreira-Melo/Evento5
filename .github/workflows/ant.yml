@@ -25,6 +25,7 @@ jobs:
       run: ant -noinput -buildfile build.xml
 
     - name: Docker build and Push Action
+      uses: mr-smithers-excellent/docker-build-push@v6.4
       with:
         image: matheusfmelo/java_sem_maven
         tags: 1
