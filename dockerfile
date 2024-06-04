@@ -1,4 +1,4 @@
 FROM openjdk:latest
 WORKDIR salaf
-COPY ..
+COPY . .
 CMD ["java", "pratica1/pratica1.iml"]
