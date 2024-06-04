@@ -21,8 +21,6 @@ jobs:
       with:
         java-version: '19'
         distribution: 'temurin'
-    - name: Build with Ant
-      run: ant -noinput -buildfile build.xml
 
     - name: Docker build and Push Action
       uses: mr-smithers-excellent/docker-build-push@v6.4
